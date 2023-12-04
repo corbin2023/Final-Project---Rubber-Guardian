@@ -83,7 +83,7 @@ Describe and show how you deploy this project (e.g., using Streamlit or Flask), 
 
 ## Supporting Documents
 ### Presentation Deck
-- Link: Rubber Guardians's [Presentation Deck] (https://drive.google.com/file/d/165V4WECq-jD6kIgnRtFFQz5yRRgFxheT/view?usp=sharing) 
+- Link: Rubber Guardians's [Presentation Deck](https://drive.google.com/file/d/165V4WECq-jD6kIgnRtFFQz5yRRgFxheT/view?usp=sharing) 
 
 ### Business Model Canvas
 Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
