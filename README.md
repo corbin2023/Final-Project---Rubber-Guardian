@@ -6,7 +6,7 @@
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
 | --- | --- | --- | --- | --- |
-|Octa Miraz       |Universitas PGRI Yogyakarta         |                           |                                    | Team Leader      |
+|Octa Miraz       |Universitas PGRI Yogyakarta         |                           |[Link](https://www.linkedin.com/in/octa-miraz-b58102145/)| Team Leader      |
 |Alya Fauziah     |Institut Teknologi Telkom Purwokerto|alyafauziyah6175@gmail.com |[Link](www.linkedin.com/in/alyafauziyah/)|Team Member      |
 |Andi Zulfikar    |Universitas Islam Bandung           |                           |                                     |Team Member     |
 |Hanina Nafisa A. |Universitas Sebelas Maret           |haninafisazka@gmail.com    |[Link](www.linkedin.com/in/haninanafisaazka/)|Team Member     |
@@ -83,14 +83,13 @@ Describe and show how you deploy this project (e.g., using Streamlit or Flask), 
 
 ## Supporting Documents
 ### Presentation Deck
-- Link: https://...
+- Link: Rubber Guardians's Presentation Deck [](https://drive.google.com/file/d/165V4WECq-jD6kIgnRtFFQz5yRRgFxheT/view?usp=sharing) 
 
 ### Business Model Canvas
 Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
 
 ### Short Video
-Provide a link to your short video, that should includes the project background and how it works.
-- Link: https://...
+Background project for [Rubber Guardian](https://drive.google.com/file/d/1hBedE9WZkkGswuJ2WN2ZxyYSEdUPnUk8/view?usp=sharing)
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
@@ -116,4 +115,4 @@ If you find this project useful, we'd grateful if you cite this repository:
 For academic and non-commercial use only.
 
 ## Acknowledgement
-This project entitled <b>"YOUR PROJECT TITLE HERE"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
+This project entitled <b>"Rubber Guardian" Tire Quality Detection and Classification</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
