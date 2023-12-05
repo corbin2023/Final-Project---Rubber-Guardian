@@ -25,11 +25,11 @@
 ### Environment
 | | |
 | --- | --- |
-| CPU | Example: Apple M3 Pro 12-core CPU |
-| GPU | Example: Nvidia A100 (x1) |
-| ROM | Example: 1 TB SSD |
-| RAM | Example: 36 GB |
-| OS | Example: macOS Sonoma v14.1.1 |
+| CPU | Example: AMD Athlon™ Silver 3050U Processor |
+| GPU | Example: AMD RADEON GRAPHIC |
+| ROM | Example: 1TB HDD |
+| RAM | Example: 8GB DDR4 |
+| OS | Example: WINDOWS 10 home single language |
 
 ## Dataset
 The dataset that we used is sourced from Kaggle, consisting of two classes: defective and good. There are 1028 images of defective tires and 828 images of good tires in the dataset.
@@ -52,6 +52,10 @@ Good
 
 ## Results
 ### Model Performance
+We use ResNet50 and InceptionV3 architecture for the base architecture of our model. We do some modifications for get the best results, because when we try the model (without modify) the result is so bad. The accuracy shown is still very weak at around 50% by epoch 30 and shows no signs of increasing accuracy. Therefore we make modifications to the architecture of the base model and hyperparameter.
+
+For the first model (ResNet50) we modify the fully connected layer model. We change fully connected model from Linear layer to Sequential layer so that we can combine the layers that we will add to the Sequential layer. On the Sequential layer we combine Linear layer, ReLU activation and Dropout layer. We adjust the input and output features in Linear layer to fit our dataset. Then, we add ReLU activation so that our model can understand nonlinearity relation between input and output features. And then, we add Dropout layer with the p = 0.5 so that our model can minimize overfit. For the optimizer we use SGD with the value of learning rate 0.001, momentum 0.9, weight_decay 0.003. We also added save checkpoint function to save the base state of our model when testing. The modifications showed good results with the best accuracy is 97-98%, loss 0.03-0.02 and the model can predict the quality of tyre from an image. But, our model is still overfitting although not as severe as before we modified.
+
 Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
 
 #### 1. Metrics
