@@ -6,7 +6,7 @@
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
 | --- | --- | --- | --- | --- |
-|Octa Miraz       |Universitas PGRI Yogyakarta         |                           |[Link](https://www.linkedin.com/in/octa-miraz-b58102145/)| Team Leader      |
+|Octa Miraz       |Universitas PGRI Yogyakarta         | octamiraz7@gmail.com |[Link](https://www.linkedin.com/in/octa-miraz-b58102145/)| Team Leader      |
 |Alya Fauziah     |Institut Teknologi Telkom Purwokerto|alyafauziyah6175@gmail.com |[Link](www.linkedin.com/in/alyafauziyah/)|Team Member      |
 |Andi Zulfikar    |Universitas Islam Bandung           |azfikar96@gmail.com|[Link](https://www.linkedin.com/in/andifikar/)                          |Team Member     |
 |Hanina Nafisa A. |Universitas Sebelas Maret           |haninafisazka@gmail.com    |[Link](www.linkedin.com/in/haninanafisaazka/)|Team Member     |
@@ -40,6 +40,15 @@ Moreover, we implemented data augmentation techniques to enhance the quality of 
 
 - Link Kaggle : [Dataset Rubber Guardian](https://bit.ly/Dataset-Rubber-Guardian)
 
+Defective
+
+<img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/Defective%20(136).jpg" width="200" height="400">
+<img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/Defective%20(27).jpg" width="400" height="400">
+
+Good
+
+<img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/good%20(351).jpg" width="200" height="400">
+<img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/good%20(637).jpg" width="400" height="400">
 
 ## Results
 ### Model Performance
@@ -77,14 +86,23 @@ Insert an image regarding your training and evaluation performances (especially 
 Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
 
 ### Deployment (Optional)
-Describe and show how you deploy this project (e.g., using Streamlit or Flask), if any.
+<img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/deployment.png">
+
+Watch [this video](https://drive.google.com/file/d/1e9xFEADsjgzXil1iHT1E0FhGk0OgVwq3/view?usp=sharing) for the detail
+
+
+Rubber Guardian is a cutting-edge application builth with Streamlit and designed to provide real-time assessments of tire conditions, empowering users to determine whether their vehicle tires are in optimal or compromised states. This intuitive and user-friendly tool utilizes advanced technology to analyze tire conditions accurately, promoting safety and extending the lifespan of tires.
+
+With Rubber Guardian, users can quickly and easily capture images of their vehicle tires using their smartphones or cameras. The application then analyzes these images instantly, providing a clear and concise evaluation of the tire's overall health. Users receive clear visual feedback on the condition of their tires through a simple and intuitive interface. The application categorizes the tire as either 'Good' or 'Poor,' offering users a quick and understandable assessment of their tire health.
 
 ## Supporting Documents
 ### Presentation Deck
-- Link: Rubber Guardians's [Presentation Deck](https://drive.google.com/file/d/165V4WECq-jD6kIgnRtFFQz5yRRgFxheT/view?usp=sharing) 
+Rubber Guardians's [Presentation Deck](https://drive.google.com/file/d/165V4WECq-jD6kIgnRtFFQz5yRRgFxheT/view?usp=sharing) 
 
 ### Business Model Canvas
 <img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/BMC.png">
+
+[Detail](https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/BMC%20Rubber%20Guardian.pdf)
 
 #### Problem Statement
 Kurangnya kesadaran masyarakat akan kualitas ban mobil dan potensi risiko keselamatan yang diakibatkan oleh ban yang rusak, penyakit ban, atau ketebalan ban yang tidak sesuai standar.
@@ -158,13 +176,12 @@ Misi <b> "RuberGuardian" </b>  adalah meningkatkan kesadaran masyarakat terhadap
 - Biaya pelatihan mitra
 
 ### Short Video
-Background project for [Rubber Guardian](https://drive.google.com/file/d/1hBedE9WZkkGswuJ2WN2ZxyYSEdUPnUk8/view?usp=sharing)
+This is our short video that contained background project for [Rubber Guardian](https://drive.google.com/file/d/1hBedE9WZkkGswuJ2WN2ZxyYSEdUPnUk8/view?usp=sharing)
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
 - Link: [https://...](https://www.kaggle.com/code/balmukund/pytorch-tyre-quality-classification-accuracy97-67)
 - Link: [https://...](https://www.kaggle.com/datasets/warcoder/tyre-quality-classification?select=Digital+images+of+defective+and+good+condition+tyres)
-- Link: https://...
 
 ## Additional Comments
 Provide your team's additional comments or final remarks for this project. For example,
