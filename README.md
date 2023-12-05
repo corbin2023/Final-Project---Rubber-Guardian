@@ -8,7 +8,7 @@
 | --- | --- | --- | --- | --- |
 |Octa Miraz       |Universitas PGRI Yogyakarta         |                           |[Link](https://www.linkedin.com/in/octa-miraz-b58102145/)| Team Leader      |
 |Alya Fauziah     |Institut Teknologi Telkom Purwokerto|alyafauziyah6175@gmail.com |[Link](www.linkedin.com/in/alyafauziyah/)|Team Member      |
-|Andi Zulfikar    |Universitas Islam Bandung           |                           |                                     |Team Member     |
+|Andi Zulfikar    |Universitas Islam Bandung           |azfikar96@gmail.com|[Link](https://www.linkedin.com/in/andifikar/)                          |Team Member     |
 |Hanina Nafisa A. |Universitas Sebelas Maret           |haninafisazka@gmail.com    |[Link](www.linkedin.com/in/haninanafisaazka/)|Team Member     |
 |Risnaldy N.I     |UPN "Veteran" Jawa Timur            |risnaldy19@gmail.com       |[Link](www.linkedin.com/in/risnaldynovendra/)|Team Member     |
 |Ryanza Aufa Y.   |UPN "Veteran" Jakarta               | ryanzaufay18@gmail.com    |[Link](www.linkedin.com/in/ryanza-aufa-yansa-669b0a221/)|Team Member    |
@@ -84,7 +84,78 @@ Describe and show how you deploy this project (e.g., using Streamlit or Flask), 
 - Link: Rubber Guardians's [Presentation Deck](https://drive.google.com/file/d/165V4WECq-jD6kIgnRtFFQz5yRRgFxheT/view?usp=sharing) 
 
 ### Business Model Canvas
-Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
+<img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/BMC.png">
+
+#### Problem Statement
+Kurangnya kesadaran masyarakat akan kualitas ban mobil dan potensi risiko keselamatan yang diakibatkan oleh ban yang rusak, penyakit ban, atau ketebalan ban yang tidak sesuai standar.
+
+#### Mission Statement
+Misi <b> "RuberGuardian" </b>  adalah meningkatkan kesadaran masyarakat terhadap kualitas ban dan keselamatan berkendara, dengan memberikan solusi otomatis untuk mendeteksi ban yang rusak dan meningkatkan kontrol kualitas di industri ban.
+
+#### Key Partners
+- Produsen ban
+- Distributor ban
+- Bengkel dan toko ban
+- Perusahaan asuransi kendaraan
+- Pusat riset dan pengembangan teknologi otomotif
+
+#### Key Activities
+- Pengembangan dan pemeliharaan model binary classification dan object detection
+- Pembaharuan berkala mengenai perangkat keras dan perangkat lunak
+- Pelatihan mitra bengkel dalam menggunakan teknologi "RuberGuardian"
+- Pemantauan dan analisis data untuk meningkatkan akurasi deteksi
+- Integrasi teknologi dalam proses kontrol kualitas industri ban
+- Kampanye edukasi dan pemasaran untuk meningkatkan kesadaran masyarakat
+
+#### Key Resources
+- Tim pengembangan perangkat lunak dan kecerdasan buatan
+- perekrutantim ahli teknis untuk pelatihan dan dukungan teknis
+- Dataset ban yang representatif dan berkualitas
+- Mitra industri untuk mendapatkan data dan dukungan
+- Akses ke Google Colab Pro dan teknologi deteksi terkini
+- Platform online 
+
+#### Value Proposition
+- Deteksi otomatis ban yang rusak untuk meningkatkan keselamatan berkendara
+- Peningkatan kesadaran masyarakat akan risiko keselamatan yang terkait dengan kondisi buruk ban
+- Meningkatkan proses kontrol kualitas industri ban
+- Mengurangi kemungkinan kecelakaan akibat ban yang rusak
+- Keamanan dan ketenangan pikiran bagi pemilik kendaraan
+- Meningkatkan efisiensi operasional dengan memberikan informasi real time tentang kondisi ban
+- Referensi ban berkualitas ke pelanggan
+
+#### Stakeholder (Customers) Relationships
+- Hubungan pelanggan yang responsif melalui aplikasi "RuberGuardian"
+- Pelatihan dan dukungan teknis bagi mitra bengkel dan toko ban
+- Kolaborasi dengan produsen ban untuk peningkatan teknologi
+
+#### Stakeholder (Customers) Segments
+- Pemilik kendaraan pribadi
+- Perusahaan transportasi dan logistik
+- Perusahaan asuransi
+- Bengkel dan toko ban
+- Perusahaan Ban
+
+#### Channels
+- Aplikasi seluler "RuberGuardian" untuk pengguna 
+- Pelatihan dan promosi melalui mitra bengkel dan toko ban
+- Kerjasama dengan perusahaan asuransi untuk mempromosikan keselamatan berkendara
+- Pemasaran digital dan kampanye promosi online
+- Partisipasi dalam pameran otomotif dan konferensi industri
+- Penjualan perangkat keras dan perangkat lunak
+- Dukungan teknis online
+
+#### Cost Structure
+- Biaya pengembangan dan pemeliharaan perangkat lunak dan model deteksi
+- Biaya pemasaran dan promosi
+- Biaya pelatihan mitra bengkel dan toko ban
+- Biaya operasional untuk mengelola dataset dan infrastruktur teknologi
+
+#### Revenue Streams
+- Biaya langganan bulanan atau tahunan untuk pengguna 
+- Biaya lisensi untuk bengkel, toko, ban, perusahaan transportasi dan perusahaan ban.
+- Penjualan perangkat deteksi dan perangkat lunak ke perusahaan transportasi 
+- Biaya pelatihan mitra
 
 ### Short Video
 Background project for [Rubber Guardian](https://drive.google.com/file/d/1hBedE9WZkkGswuJ2WN2ZxyYSEdUPnUk8/view?usp=sharing)
