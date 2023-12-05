@@ -58,6 +58,7 @@ Inform your model validation performances, as follows:
 Feel free to adjust the columns in the table below.
 
 | model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision class 0 | val_recall class 0 | val_precision class 1 | val_recall class 1 |
+
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ResNet50 | 150 |  0.001 | 32 | SGD | 0.036 | 97.85% | 98% | 93% | 92% | 98%
 | vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
@@ -67,6 +68,7 @@ Feel free to adjust the columns in the table below.
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
 
 | model | fully connected layer | top1_acc | top5_acc |
+
 | --- | --- | --- | --- | --- | --- | --- |
 | ResNet50 | Linear(2048, 1024) x1, Linear(1024, 512) x1, Linear(512, 256) x1, Linear(256, 2) x1, ReLU() x3, Dropout(0.5) x2 | 55.37% | 90.86% |
 | vit_b_16 | Conv(3x3, 32) x3 | 72.11% | 76.84% |
