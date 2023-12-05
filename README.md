@@ -57,19 +57,19 @@ Inform your model validation performances, as follows:
 
 Feel free to adjust the columns in the table below.
 
-| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | ... |
+| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision class 0 | val_recall class 0 | val_precision class 1 | val_recall class 1 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | 1000 |  0.0001 | 32 | Adam | 0.093 | 88.34% | 84.15% | ... |
+| ResNet50 | 150 |  0.001 | 32 | SGD | 0.036 | 97.85% | 98% | 93% | 92% | 98%
 | vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | 
 
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
 
-| model | layer_A | layer_B | layer_C | ... | top1_acc | top5_acc |
+| model | fully connected layer | top1_acc | top5_acc |
 | --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | Conv(3x3, 64) x2 | Conv(3x3, 512) x3 | Conv(1x1, 2048) x3 | ... | 77.43% | 80.08% |
-| vit_b_16 | Conv(3x3, 32) x3 | Conv(3x3, 128) x3 | Conv(1x1, 1028) x2 | ... | 72.11% | 76.84% |
+| ResNet50 | Linear(2048, 1024) x1, Linear(1024, 512) x1, Linear(512, 256) x1, Linear(256, 2) x1, ReLU() x3, Dropout(0.5) x2 | 55.37% | 90.86% |
+| vit_b_16 | Conv(3x3, 32) x3 | 72.11% | 76.84% |
 | ... | ... | ... | ... | ... | ... | ... |
 
 #### 3. Training/Validation Curve
