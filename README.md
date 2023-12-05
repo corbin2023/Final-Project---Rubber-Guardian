@@ -84,7 +84,7 @@ Any improvements or modifications of your base model, should be summarized in th
 | InceptionV3 | Conv(3x3, 32) x3 | 72.11% | 76.84% |
 
 #### 3. Training/Validation Curve
-Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
+<img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/acuracy.png">
  
 ### Testing
 Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
