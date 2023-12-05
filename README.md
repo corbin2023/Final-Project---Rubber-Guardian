@@ -58,13 +58,9 @@ Inform your model validation performances, as follows:
 Feel free to adjust the columns in the table below.
 
 | model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision class 0 | val_recall class 0 | val_precision class 1 | val_recall class 1 |
-
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
-| ResNet50 | 150 |  0.001 | 32 | SGD | 0.036 | 97.85% | 98% | 93% | 92% | 98% |
-
+| ResNet50 | 150 |  0.001 | 32 | SGD | 0.036 | 98% | 93% | 92% | 98% |
 | InceptionV3 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
-
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | 
 
 #### 2. Ablation Study
