@@ -101,8 +101,8 @@ Background project for [Rubber Guardian](https://drive.google.com/file/d/1hBedE9
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
-- Link: https://...
-- Link: https://...
+- Link: [https://...](https://www.kaggle.com/code/balmukund/pytorch-tyre-quality-classification-accuracy97-67)
+- Link: [https://...](https://www.kaggle.com/datasets/warcoder/tyre-quality-classification?select=Digital+images+of+defective+and+good+condition+tyres)
 - Link: https://...
 
 ## Additional Comments
