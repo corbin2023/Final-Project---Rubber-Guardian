@@ -87,7 +87,11 @@ Any improvements or modifications of your base model, should be summarized in th
 <img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/acuracy.png">
  
 ### Testing
-Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
+Testing with 5 defectice tyre images
+<img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/test_defect.png">
+
+Testing with 5 good tyre images
+<img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/test_good.png">
 
 ### Deployment (Optional)
 <img src="https://github.com/corbin2023/Final-Project-Startup-Campus-Rubber-Guardian-/blob/main/gambar/deployment.png">
